@@ -17,3 +17,9 @@ k
 ;app/src/main/java/id/uviwi/notes/viewmodel/NoteViewModel.kt,f\1\f12ed6942b9ddd2ade51630b9041b4b54897f051
 e
 5app/src/main/java/id/uviwi/notes/view/MainActivity.kt,1\0\109e998d907c04f37565a6475dbf5f64aa5e3934
+7
+LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+F
+app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
