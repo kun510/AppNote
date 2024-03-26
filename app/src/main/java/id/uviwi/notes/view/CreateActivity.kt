@@ -90,18 +90,20 @@ class CreateActivity : AppCompatActivity() {
         val noteText = _binding.editText.text.toString()
         val id = data?.id ?: 0
         val note = Note(id, noteText, Date())
-        model.insertNote(note).observe(this, {
+        model.insertNote(note).observe(this) {
             when (it.status) {
                 State.LOADING -> {
                     Toast.makeText(this, "Please Wait ...", Toast.LENGTH_SHORT).show()
                 }
+
                 State.SUCCESS -> {
                     finish()
                 }
+
                 State.ERROR -> {
                     Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                 }
             }
-        })
+        }
     }
 }
